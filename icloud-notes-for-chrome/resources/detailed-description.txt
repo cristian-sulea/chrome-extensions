@@ -1,0 +1,6 @@
+Telegram™ for Chrome™ extension allows you to have access to the official Telegram™ Web version in a stand-alone window.
+
+Please note that this extension only loads the official Telegram™ Web version inside a stand-alone window with no intention on misleading users that this is the official extension, only trying to make access to the official web service simpler.
+
+Telegram™ FAQ:
+https://telegram.org/faq

@@ -1,0 +1,6 @@
+iCloud for Chrome extension allows you to have access to the official iCloud (web version) in a stand-alone window.
+
+Please note that this extension only loads the official iCloud (web version) inside a stand-alone window with no intention on misleading users that this is the official extension, only trying to make access to the official web service simpler.
+
+Web-only access to iCloud:
+https://support.apple.com/en-us/HT204174
