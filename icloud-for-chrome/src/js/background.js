@@ -27,7 +27,7 @@ function openWindow() {
 
 	var widthWindow = screen.width - xWindow - 25;
 	var heightWindow = screen.height - yWindow - 25;
-	
+
 	chrome.windows.create({
 		'url' : urlWindow,
 		'type' : 'popup',
