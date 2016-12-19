@@ -23,9 +23,11 @@
     "default_icon": "icons/024.png"
   },
   
+  "permissions": ["notifications"],
+  
   "background": {
     "scripts": ["js/background.js"],
-    "persistent": false
+    "persistent": true
   }
   
 }

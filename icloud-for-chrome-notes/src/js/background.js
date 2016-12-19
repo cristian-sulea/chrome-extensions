@@ -20,6 +20,18 @@ chrome.browserAction.onClicked.addListener(function() {
 
 });
 
+chrome.runtime.onInstalled.addListener(function() {
+	//alert(localStorage);
+	
+	var options = {
+			  type: "basic",
+			  title: "Primary Title",
+			  message: "Primary message to display",
+			  iconUrl: "icons/128.png"
+			}
+	chrome.notifications.create(options);
+})
+
 function openWindow() {
 
 	var xWindow = screen.width - screen.availWidth + 25;
