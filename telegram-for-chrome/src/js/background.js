@@ -23,7 +23,7 @@ function openTelegramWindow() {
 	var telegramWindowX = screen.width - screen.availWidth + 25;
 	var telegramWindowY = screen.height - screen.availHeight + 25;
 
-	var telegramWindowWidth = 1050;
+	var telegramWindowWidth = Math.max(1050, Math.round(screen.availWidth / 2) - telegramWindowX - 25);
 	var telegramWindowHeight = screen.height - telegramWindowY - 25;
 
 	chrome.windows.create({

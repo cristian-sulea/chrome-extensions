@@ -4,7 +4,7 @@
   "name": "Telegram for Chrome",
   "description": "Access to to the official Telegram (web version) in a stand-alone window.",
   
-  "version": "1.7",
+  "version": "1.8",
   
   "icons": {
      "16": "icons/016.png",
