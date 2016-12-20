@@ -28,8 +28,17 @@ function openTelegramWindow() {
 
 	if (localStorage.telegramWindowWidth) {
 		telegramWindowWidth = Number(localStorage.telegramWindowWidth);
-	} else {
-		telegramWindowWidth = Math.max(telegramWindowWidth, Math.round(screen.availWidth / 2) - telegramWindowX - 25);
+	}
+
+	else {
+
+		telegramWindowWidth = 1050;
+
+		if (telegramWindowWidth > screen.availWidth) {
+			telegramWindowWidth = screen.availWidth;
+		} else {
+			telegramWindowWidth = Math.max(telegramWindowWidth, Math.round(screen.availWidth * 3 / 4));
+		}
 	}
 
 	chrome.windows.create({
