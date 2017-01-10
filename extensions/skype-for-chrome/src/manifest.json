@@ -23,7 +23,7 @@
   },
   
   "background": {
-    "scripts": ["js/init.js", "js/background.js"],
+    "scripts": ["js/init.js", "js/background-v.2.1.js"],
     "persistent": true
   }
   
