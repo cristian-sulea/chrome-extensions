@@ -35,10 +35,8 @@ function openTheWindow() {
 	}
 
 	else {
-
 		if (theWindowWidth > screen.availWidth) {
-			theWindowWidth = Math.max(theWindowWidth, Math
-					.round(screen.availWidth * 3 / 4));
+			theWindowWidth = Math.max(theWindowWidth, Math.round(screen.availWidth * 3 / 4));
 		}
 	}
 
