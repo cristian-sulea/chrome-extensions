@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  
+  "name": "Deezer for Chrome",
+  "description": "Access to the official Deezer (web version) in a stand-alone window.",
+  
+  "version": "1.0",
+  
+  "icons": {
+     "48": "icons/048.png"
+  },
+  
+  "browser_action": {
+    "default_icon": "icons/048.png"
+  },
+  
+  "background": {
+    "scripts": ["js/init.js", "js/background-v.2.1.js"],
+    "persistent": true
+  }
+  
+}

@@ -1,0 +1,6 @@
+Skype for Chrome extension allows you to have access to the official Skype (web version) in a stand-alone window.
+
+Please note that this extension only loads the official Skype (web version) inside a stand-alone window with no intention on misleading users that this is the official extension, only trying to make access to the official web service simpler.
+
+Official Skype (web version):
+https://web.skype.com
